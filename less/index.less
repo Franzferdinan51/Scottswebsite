@@ -1,12 +1,15 @@
 @import "imports.less";
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
     background:black;
-    
-    
+   
+    background-size:150%;
+   
+    width: 100%;
+    flex-wrap: wrap;
 
 }
 .navbar a {
@@ -15,7 +18,7 @@ nav {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    
+    text-decoration: none;
   }
   .navbar {
     overflow: hidden;
@@ -49,7 +52,7 @@ nav {
     float: none;
     color: black;
     padding: 12px 16px;
-    
+    text-decoration: none;
     display: block;
     text-align: left;
   }
@@ -73,11 +76,11 @@ body {
     background-position-y: 30%;
     background-size: 500% auto;
    
-}
+
 @media only screen and (max-width: 600px){
-    body {
+    
         background-size: auto;
-    }
+    
     nav{
         display: flex;
         justify-content: space-evenly;
@@ -120,9 +123,4 @@ input[type=text], select, textarea {
 .Contact{
 padding-top: 100%;
 }
-
-.footer .nav {
-  @media @phone{
-    font-size 100px;
-  }
 }
