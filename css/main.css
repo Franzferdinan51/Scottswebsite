@@ -19,6 +19,14 @@ body {
     body {
         background-size: auto;
     }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        background:black;
+        text-decoration:none;
+      
+    }
 }
 
 
